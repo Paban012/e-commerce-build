@@ -1,0 +1,122 @@
+.nikeSpecail {
+    display: flex;
+    justify-content: space-between;
+    padding: 4%;
+
+    .nikeLeft {
+        width: 23%;
+        height: 75vh;
+        background-image: url('../img/special-banner.jpg');
+        background-repeat: no-repeat;
+
+        .fi {
+            height: 65vh;
+        }
+
+        .nikel-but {
+            display: flex;
+            justify-content: center;
+
+            .nikel-butto {
+                border: none;
+                background: transparent;
+                color: #fff;
+                font-size: 19px;
+                cursor: pointer;
+                border-bottom: 3px solid white;
+
+                &:hover {
+                    border: none;
+                }
+            }
+        }
+    }
+
+    .nikeRight {
+        width: 75%;
+        height: 75vh;
+
+        .nTitle {
+            display: flex;
+            width: 100%;
+            position: relative;
+
+            .ti {
+                font-size: 2.2rem;
+                font-weight: 700;
+            }
+
+            .line {
+                height: 1px;
+                width: 75%;
+                background-color: #00000025;
+                position: absolute;
+                top: 26px;
+                left: 22%
+            }
+        }
+
+        .nike-card {
+            display: -webkit-box;
+            overflow-x: scroll;
+
+            .totalCard {
+                width: 30%;
+                height: 66vh;
+
+                .header {
+                    height: 45vh;
+                    background-image: url('../img/product-1.jpg');
+                    background-repeat: no-repeat;
+
+                    .nike-bunew {
+                        position: relative;
+
+                        button {
+                            position: absolute;
+                            top: 20px;
+                            left: 20px;
+                            background: #ff6e61;
+                            color: white;
+                            padding: 5px 15px;
+                            border: none;
+                            border-radius: 25px;
+                        }
+                    }
+                }
+
+                .nike-Text {
+
+                    p,
+                    h2 {
+                        display: flex;
+                        justify-content: center;
+                        line-height: 0.8;
+                    }
+
+                    .price {
+                        color: #ff6e61;
+                        font-size: 19px;
+                        font-weight: bold;
+                    }
+                }
+            }
+
+        }
+        .nike-card::-webkit-scrollbar {
+            height: 6px;
+          }
+          .nike-card::-webkit-scrollbar-thumb {
+            background: #ff6e61; 
+            border-radius: 8px;
+          }
+          .nike-card::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px #9e9e9e9a; 
+            border-radius: 8px;
+          }
+          
+          .nike-card::-webkit-scrollbar-thumb:hover {
+            background: #ff6e61; 
+          }
+    }
+}

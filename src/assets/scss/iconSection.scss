@@ -1,0 +1,43 @@
+.IconSection {
+    display: flex;
+    justify-content: space-between;
+    padding: 4%;
+
+    .icondiv {
+        display: flex;
+        justify-content: space-between;
+        width: 25%;
+
+        .icon-sec {
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            // background-color: #c2a19e;
+            border: 3px solid #ff6e61;
+            position: relative;
+
+            img {
+                top: 18px;
+                left: 15px;
+                position: absolute;
+                width: 55%;
+                color: white;
+                // z-index: 999;
+            }
+        }
+
+        .text-Section {
+            width: 74%;
+            padding: 2%;
+
+            .head {
+                font-size: 20px;
+                font-weight: 800;
+            }
+
+            .title {
+                font-size: 14px;
+            }
+        }
+    }
+}

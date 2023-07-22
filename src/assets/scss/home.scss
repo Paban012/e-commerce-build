@@ -1,0 +1,243 @@
+.home {
+    margin-top: 92px;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../img/hero-banner.png');
+    background-repeat: no-repeat;
+
+    // padding-top: 92px;
+    .left-text {
+        width: 50%;
+
+        .text-contain {
+            padding: 15%;
+
+            .head {
+                font-size: 3rem;
+                line-height: 0;
+            }
+
+            h1 {
+                font-size: 3rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+            }
+
+            .but {
+                height: 7vh;
+                width: 10vw;
+                font-size: large;
+                background-color: #ff6e61;
+                cursor: pointer;
+                border: none;
+            }
+        }
+    }
+}
+
+.cardsec {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+
+    .card {
+        width: 30%;
+        height: 65vh;
+        background-image: url('../img/collection-1.jpg');
+
+        .card-body {
+            padding-top: 15%;
+
+            .heading {
+                display: flex;
+                justify-content: center;
+                height: 40vh;
+                font-size: 25px;
+                font-weight: 600;
+            }
+
+            .cardButt {
+                display: flex;
+                justify-content: center;
+
+                .butn {
+                    height: 7vh;
+                    width: 20vh;
+                    font-size: large;
+                    background: transparent;
+                    border: 1px solid black;
+                    cursor: pointer;
+                    left: 10;
+                }
+            }
+
+        }
+    }
+
+    .card2 {
+        width: 30%;
+        height: 65vh;
+        background-image: url('../img/collection-2.jpg');
+
+        .card-body {
+            padding-top: 15%;
+
+            .heading {
+                display: flex;
+                justify-content: center;
+                height: 40vh;
+                font-size: 25px;
+                font-weight: 600;
+            }
+
+            .cardButt {
+                display: flex;
+                justify-content: center;
+
+                .butn {
+                    height: 7vh;
+                    width: 20vh;
+                    font-size: large;
+                    background: transparent;
+                    border: 1px solid black;
+                    cursor: pointer;
+                    left: 10;
+                }
+            }
+
+        }
+    }
+
+    .card3 {
+        width: 30%;
+        height: 65vh;
+        background-image: url('../img/collection-3.jpg');
+
+        .card-body {
+            padding-top: 15%;
+
+            .heading {
+                display: flex;
+                justify-content: center;
+                height: 40vh;
+                font-size: 25px;
+                font-weight: 600;
+            }
+
+            .cardButt {
+                display: flex;
+                justify-content: center;
+
+                .butn {
+                    height: 7vh;
+                    width: 20vh;
+                    font-size: large;
+                    background: transparent;
+                    border: 1px solid black;
+                    cursor: pointer;
+                    left: 10;
+                }
+            }
+
+        }
+    }
+}
+
+.Bestsellers-section {
+    padding: 2%;
+
+    .but-sec {
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+
+        .fillButt {
+            height: 7vh;
+            width: 5vw;
+            margin: 7px;
+            color: #fff;
+            border-radius: 23px;
+            background-color: #ff6e61;
+            border: none;
+            font-weight: bold;
+            font-size: medium;
+            cursor: pointer;
+            &:hover{
+                background-color: #fff;
+                border: 2px solid #ff6e61;
+                color: #ff6e61;
+            }
+        }
+    }
+}
+.cta{
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    .left-card{
+        width: 50%;
+        padding: 4%;
+        margin: 1%;
+        background-image: url('../img/cta-1.jpg');
+        background-repeat: no-repeat;
+        .firstLine{
+            color: white;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 0;
+        }
+        .secLine{
+            color: white;
+            font-size: 3rem;
+            line-height: 1;
+            font-weight: 600;
+        }
+        .cta-butt{
+            background: transparent;
+            border: none;
+            font-size: 18px;
+            height: 5vh;
+            border-bottom: 3px solid white;
+            color: white;
+            font-weight: 600;
+            cursor: pointer;
+            &:hover{
+                border: none;
+            }
+        }
+    }
+    .right-card{
+        width: 50%;
+        padding: 4%;
+        margin: 1%;
+        background-image: url('../img/cta-2.jpg');
+        background-repeat: no-repeat;
+        .firstLine{
+            color: white;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 0;
+        }
+        .secLine{
+            color: white;
+            font-size: 3rem;
+            line-height: 1;
+            font-weight: 600;
+        }
+        .cta-butt{
+            background: transparent;
+            border: none;
+            font-size: 18px;
+            height: 5vh;
+            border-bottom: 3px solid white;
+            color: white;
+            font-weight: 600;
+            cursor: pointer;
+            &:hover{
+                border: none;
+            }
+        }
+    }
+}

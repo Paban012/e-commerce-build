@@ -1,0 +1,238 @@
+.footer-main {
+    height: 50vh;
+
+    .divider {
+        display: flex;
+        justify-content: center;
+
+        span {
+            width: 90%;
+            height: 1px;
+            background-color: rgba(0, 0, 0, 0.425);
+        }
+    }
+
+    .main-conten {
+        display: flex;
+        justify-content: space-between;
+        padding: 2%;
+
+        .co-first {
+            padding: 2%;
+            width: 40%;
+
+            .footer-title {
+                display: flex;
+                // justify-content: center;
+                font-size: 25px;
+                font-weight: 700;
+            }
+
+            .line {
+                display: flex;
+                // padding-left: 33%;
+                height: 5px;
+                padding-top: 2%;
+                padding-bottom: 10%;
+
+                span {
+                    width: 25%;
+                    height: 2px;
+                    background-color: tomato;
+                }
+            }
+
+            .address {
+                display: flex;
+
+                .foo-Icon {
+                    height: 4vh;
+                    width: 2vw;
+                    padding-right: 15px;
+                    color: #fa6c5f;
+                }
+
+                .address-line {
+                    font-size: 20px;
+                    padding: 0 0 20px;
+                    width: 100%;
+                    cursor: pointer;
+                    &:hover{
+                        color: #fa6c5f;
+                    }
+                }
+            }
+
+        }
+        .co {
+            padding: 2%;
+            width: 24%;
+
+            .footer-title {
+                display: flex;
+                // justify-content: center;
+                font-size: 25px;
+                font-weight: 700;
+            }
+
+            .line {
+                display: flex;
+                // padding-left: 33%;
+                height: 5px;
+                padding-top: 2%;
+                padding-bottom: 10%;
+
+                span {
+                    width: 40%;
+                    height: 2px;
+                    background-color: tomato;
+                }
+            }
+
+            .address {
+                display: flex;
+
+                .foo-Icon {
+                    height: 4vh;
+                    width: 2vw;
+                    padding-right: 15px;
+                    color: #fa6c5f;
+                }
+
+                .address-line {
+                    font-size: 20px;
+                    padding: 0 0 20px;
+                    width: 100%;
+                    cursor: pointer;
+                    &:hover{
+                        color: #fa6c5f;
+                    }
+                }
+            }
+
+            .address-my {
+                display: flex;
+
+                .foo-Icon {
+                    height: 2.5vh;
+                    width: 2vw;
+                    padding: 7px 12px 0 0;
+                    color: #000000;
+                }
+
+                .address-line {
+                    font-size: 20px;
+                    padding: 0 0 10px;
+                    width: 100%;
+                    cursor: pointer;
+                    &:hover{
+                        color: #fa6c5f;
+                    }
+                }
+            }
+
+            .open-time{
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                margin: 0 0 15px 0;
+                .days-line{
+                    font-size: 16px;
+                    font-weight: bold;
+                    width: 50%;
+                    color: #5a5454;
+                }
+                .value-line{
+                    display: flex;
+                    font-weight: 500;
+                    align-content: flex-start;
+                    width: 65%;
+                }
+            }
+            .foo-span{
+                width: 100%;
+                font-size: 16px;
+                margin: 0 0 20px 0;
+            }
+            .inp-foo{
+                position: relative;
+
+                width: 100%;
+                .input{
+                    height: 7.5vh;
+                    width: 97%;
+                    border: none;
+                    padding-left: 8px;
+                    background-color: #efefef;
+                }
+                .in-but{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    height: 7.6vh;
+                    width: 6vw;
+                    border: none;
+                    background-color: #fa6c5f;
+                    color: white;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+            }
+        }
+        .co-last {
+            padding: 2%;
+            width: 40%;
+
+            .footer-title {
+                display: flex;
+                // justify-content: center;
+                font-size: 25px;
+                font-weight: 700;
+            }
+
+            .line {
+                display: flex;
+                // padding-left: 33%;
+                height: 5px;
+                padding-top: 2%;
+                padding-bottom: 6%;
+
+                span {
+                    width: 25%;
+                    height: 2px;
+                    background-color: tomato;
+                }
+            }
+
+            .foo-span{
+                width: 100%;
+                font-size: 17px;
+                margin: 0 0 25px 0;
+            }
+            .inp-foo{
+                position: relative;
+
+                width: 100%;
+                .input{
+                    height: 7.5vh;
+                    width: 97%;
+                    border: none;
+                    padding-left: 10px;
+                    background-color: #efefef;
+                }
+                .in-but{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    height: 7.6vh;
+                    width: 6vw;
+                    border: none;
+                    background-color: #fa6c5f;
+                    color: white;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

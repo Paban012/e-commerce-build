@@ -1,0 +1,142 @@
+.cardsell{
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: space-between;
+    width: 100%;
+    .sellerCard1{
+        width: 21%;
+        height: 65vh;
+        margin: 2%;
+        .header{
+            height: 45vh;
+            background-image: url('../img/product-1.jpg');
+       .bunew{
+        position: relative;
+        button{
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: #ff6e61;
+            color: white;
+            padding: 5px 15px;
+            border: none;
+            border-radius: 25px;
+        }
+       }
+        }
+        .text-sec{
+            p,h2{
+                display: flex;
+                justify-content: center;
+                line-height: 0.8;
+            }
+            .price{
+                color: #ff6e61;
+                font-size: 19px;
+                font-weight: bold;
+            }
+        }
+    }
+    .sellerCard2{
+        width: 21%;
+        height: 65vh;
+        margin: 2%;
+        .header{
+            height: 45vh;
+            background-image: url('../img/product-2.jpg');
+            .bunew{
+                position: relative;
+                button{
+                    position: absolute;
+                    top: 20px;
+                    left: 20px;
+                    background: #ff6e61;
+                    color: white;
+                    padding: 5px 15px;
+                    border: none;
+                    border-radius: 25px;
+                }
+               }
+        }
+        .text-sec{
+            p,h2{
+                display: flex;
+                justify-content: center;
+                line-height: 0.8;
+            }
+            .price{
+                color: #ff6e61;
+                font-size: 19px;
+                font-weight: bold;
+            }
+        }
+    }
+    .sellerCard3{
+        width: 21%;
+        height: 65vh;
+        margin: 2%;
+        .header{
+            height: 45vh;
+            background-image: url('../img/product-3.jpg');
+            .bunew{
+                position: relative;
+                button{
+                    position: absolute;
+                    top: 20px;
+                    left: 20px;
+                    background: #ff6e61;
+                    color: white;
+                    padding: 5px 15px;
+                    border: none;
+                    border-radius: 25px;
+                }
+               }
+        }
+        .text-sec{
+            p,h2{
+                display: flex;
+                justify-content: center;
+                line-height: 0.8;
+            }
+            .price{
+                color: #ff6e61;
+                font-size: 19px;
+                font-weight: bold;
+            }
+        }
+    }
+    .sellerCard4{
+        width: 21%;
+        height: 65vh;
+        margin: 2%;
+        .header{
+            height: 45vh;
+            background-image: url('../img/product-4.jpg');
+            .bunew{
+                position: relative;
+                button{
+                    position: absolute;
+                    top: 20px;
+                    left: 20px;
+                    background: #ff6e61;
+                    color: white;
+                    padding: 5px 15px;
+                    border: none;
+                    border-radius: 25px;
+                }
+               }
+        }
+        .text-sec{
+            p,h2{
+                display: flex;
+                justify-content: center;
+                line-height: 0.8;
+            }
+            .price{
+                color: #ff6e61;
+                font-size: 19px;
+                font-weight: bold;
+            }
+        }
+    }
+}
